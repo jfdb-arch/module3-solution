@@ -1,0 +1,114 @@
+
+  body {
+  font-size: 12px;
+  color: #010203;
+  background-color: #fff;
+  font-family: 'Oxygen', sans-serif;
+  font-size: 1.6rem;
+  text-align: center;
+  border-color: solid black;
+  border-top:2px solid black;
+  border-bottom:2px solid black;
+  border-left:2px solid black;
+  border-right:2px solid black;
+}
+  .section-body {
+    margin: 0 auto 15px;
+    background-color: grey;  
+    max-width:99%;
+    min-height:100px;
+    height:auto;
+  }
+  .section-title {
+    max-width:99%;
+    margin: 0 auto 0;
+    text-align: center;
+    background-color: grey;  
+    font-weight: bold;
+    color: #010203;
+  }
+
+/** HEADER **/
+#header-nav {
+  background-color: grey;  
+  border-radius: 0;
+  border-top:2px solid black;
+  border-bottom:2px solid black;
+  border-left:1px solid black;
+  border-right:1px solid black;
+}
+.navbar-brand {
+  padding-top: 25px;
+}
+.container .navbar-header h1 { /* Company name */
+  color: #010203;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-shadow: 1.5px 1.5px 1.5px 1.5px;
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+  line-height: .75;
+   }
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #951C49;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+/* END HEADER */
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+}
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+}
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 { /* company name */
+    padding-top: 10px;
+    font-size: 5vw; /* 1vw = 1% of viewport width */
+  }
+  /* End Header */
+}
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+  /* Header */
+  .navbar-brand h1 { /* Company name */
+    padding-top: 5px;
+    font-size: 5vw;
+  }
+  /* End Header */
+
+  .col-xxs-12 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    float: left;
+    width: 100%;
+  }
+}
